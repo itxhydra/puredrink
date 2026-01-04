@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cafes | PURE DRINK</title>
+  <meta name="viewport" content="width=1200">
+
+  <!-- COMMON CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- CAFES PAGE CSS -->
+  <link rel="stylesheet" href="assets/css/cafes.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <a href="index.html" class="logo">PURE DRINK</a>
+
+  <div class="nav-right">
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="cafes.html" class="active">Cafes</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="nav-icons">
+      <span class="icon">📷</span>
+      <span class="icon">🔍</span>
+    </div>
+  </div>
+</header>
+
+<!-- PAGE HERO -->
+<section class="cafes-hero">
+  <h1>Our Partner Cafes</h1>
+  <p>Outlets serving PURE DRINK bottled water</p>
+</section>
+
+<!-- ================= PAID CAFES (MANUAL) ================= -->
+<section class="cafes">
+  <h2 class="section-title">Featured Cafes</h2>
+
+  <div class="cafes-grid">
+
+    <!-- PAID CAFE (MANUAL ADD) -->
+    <a href="paid/cafe-aroma.html" class="cafe-card paid">
+      <img src="assets/images/cafe-logo.png" alt="Cafe Aroma">
+      <h3>Cafe Aroma</h3>
+      <span class="code">Code: PD001</span>
+      <button>Order Now</button>
+    </a>
+
+    <!-- tum yahan aur PAID cafes manually add karoge -->
+
+  </div>
+</section>
+
+<!-- ================= FREE CAFES (AUTO) ================= -->
+<section class="cafes">
+  <h2 class="section-title">Partner Cafes</h2>
+
+  <!-- JS yahin FREE cafes inject karega -->
+  <div class="cafes-grid" id="freeCafesGrid"></div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2026 PURE DRINK. All rights reserved.</p>
+</footer>
+
+<!-- JS FILES (ORDER IMPORTANT) -->
+<script src="assets/js/free-cafes.js"></script>
+<script src="assets/js/cafes.js"></script>
+
+</body>
+</html>

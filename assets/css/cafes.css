@@ -1,0 +1,99 @@
+/* ========== CAFES HERO ========== */
+.cafes-hero{
+    padding: 12rem 9% 6rem;
+    background-color: black;
+    text-align: center;
+}
+
+.cafes-hero h1{
+    font-size: 4.8rem;
+    color: #b74b4b;
+    margin-bottom: 1rem;
+}
+
+.cafes-hero p{
+    font-size: 1.7rem;
+    color: #ccc;
+}
+
+/* SECTION TITLE */
+.section-title{
+    font-size: 3.6rem;
+    color: #b74b4b;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+/* ========== CAFES SECTION ========== */
+.cafes{
+    padding: 6rem 9% 10rem;
+    background-color: black;
+}
+
+/* GRID */
+.cafes-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 🔥 1 row = 5 */
+    gap: 2.5rem;
+}
+
+/* ========== CAFE CARD (PORTRAIT) ========== */
+.cafe-card{
+    background-color: #111;
+    border-radius: 1.5rem;
+    padding: 2.5rem 1.8rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.cafe-card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 0 20px rgba(183,75,75,0.4);
+}
+
+/* LOGO */
+.cafe-card img{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 1.2rem;
+}
+
+/* NAME */
+.cafe-card h3{
+    font-size: 1.9rem;
+    margin-bottom: 0.6rem;
+}
+
+/* CODE */
+.cafe-card .code{
+    display: block;
+    font-size: 1.3rem;
+    color: #aaa;
+    margin-bottom: 1.8rem;
+}
+
+/* BUTTON */
+.cafe-card button{
+    padding: 0.8rem 2.2rem;
+    border-radius: 3rem;
+    border: 2px solid #b74b4b;
+    background: transparent;
+    color: #b74b4b;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.cafe-card:hover button{
+    background-color: #b74b4b;
+    color: black;
+}
+
+/* PAID VISUAL HINT */
+.cafe-card.paid{
+    border: 1px solid rgba(183,75,75,0.4);
+}
